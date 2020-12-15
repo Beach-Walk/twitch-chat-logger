@@ -2,7 +2,7 @@
 Twitch Chat Logger. Monitors Twitch chat using Selenium & BeautifulSoup and logs all chat messages to a SQLite database file. Written in Python3.
 
 ## Limitations
-- Only press ctrl+c ***ONCE*** to exit. Pressing it multiple times could leave the browser driver to run in the background even though program is closed.
+- Only press ctrl+c ***ONCE*** to exit. Pressing it multiple times could leave the browser driver to run in the background even though the CLI is closed.
 - Currently only works with popout chats
 - Only tested on Windows. May need modification for other OSs.
 
