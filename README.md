@@ -13,10 +13,8 @@ Twitch Chat Logger. Monitors Twitch chat using Selenium & BeautifulSoup and logs
 - Dependencies in requirements.txt
 
 ## How It Works
-- It scans through Twitch Chat and looks for matches of regex in "keywords.txt"
- - Add regex to this file and seperate with new lines
-- Once a match is found it will output the username and the message that matched.
-- Messages stored in array will flush at around 5000~ messages to reduce ram usage.
+- Monitors chat messages, logs into sql database 
+- Messages stored in array will save to database at around 700~ messages to reduce ram usage.
 
 ## To Build & Run (assuming you have py3)
 1. Download ZIP or clone repository 
